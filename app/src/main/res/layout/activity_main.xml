@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GEt PNr Status here"
+        android:textColor="#cf3c14"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/pnr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PNR Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:onClick="getpnrstatus"
+        android:padding="10dp"
+        android:id="@+id/getpnrstatus"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#efef10"
+        android:text="GET PNR STATUS"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/trainnot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train No"
+        android:textColor="#cf3c14"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/trainno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train No Here"
+        android:textColor="#cf3c14"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/seatnot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAte of journey"
+        android:textColor="#cf3c14"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/seatno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Here"
+        android:textColor="#cf3c14"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
