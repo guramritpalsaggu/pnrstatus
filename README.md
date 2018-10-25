@@ -1,2 +1,2 @@
-# pnrstatus Check your train number and Date of journey
+# pnrstatus To Check your train number, Date of journey, and Seat Bookings.
 
